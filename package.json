@@ -1,19 +1,20 @@
 {
-  "name": "generator-rc",
-  "version": "0.0.0",
-  "description": "Generates a React component",
+  "name": "generator-tsnf",
+  "version": "0.0.1",
+  "description": "Generates a Typescript Node serverless function optimised for Vercel / Next.js",
   "homepage": "",
   "author": {
     "name": "eddietindame",
     "email": "eddie.tindame@googlemail.com",
-    "url": "eddietindame.github.io"
+    "url": "https://eddietindame.github.io"
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "Next.js",
+    "Vercel",
     "yeoman-generator"
   ],
   "devDependencies": {
@@ -69,6 +70,6 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "eddietindame/generator-rc",
+  "repository": "eddietindame/generator-tsnf",
   "license": "Apache-2.0"
 }
